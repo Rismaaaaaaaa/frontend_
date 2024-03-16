@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risma - UI/UX Designer</title>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section id="footer" style=" display: flex; align-items: center;" margin-right: 50px;>
+                <img src="logo.jpg" alt="Gambar" style="width: 70px; height: auto;">
+                <h2 style="margin-right: 200px;">Design</h2>
+                <h2>
+                    <a href="#about" style="color:#161616;margin-right: 50px;">Home</a>
+                    <a href="#about" style="color:#161616;margin-right: 50px;">About</a>
+                    <a href="#skills" style="color:#161616; margin-right: 50px;">Skills</a>
+                    <a href="#portfolio" style="color:#161616;margin-right: 50px;">Portofolio</a>
+                    <a href="#testimoni" style="color:#161616;margin-right: 50px;">Testimoni</a>
+                    <a href="#contact" style="color:#161616;margin-right: 50px;">Contact</a></h2>
+            </section>
+
+        </nav>
+
+        <h1>Hello , I’m a UI/ UX Designer</h1>
+        <p>Why should you hire me ?</p>
+        <button>Hire Me</button>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <img src="Risma.jpeg" alt="Gambar" style="width: 100px; height: auto;">
+
+        <p>I'm Risma, a UI/UX designer who loves creating beautiful and meaningful products through design.</p>
+        <p>As an information engineering graduate, I am well-versed in code and software development. For me, design is not just about aesthetics, but also the value it brings, the research and data behind it, and its practicality for development.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <table border="0">
+            <thead>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>User Research</td>
+                    <td>Copy writing</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div style="background-color: #F53838; width: 95px;">&nbsp; 95%</div>
+                    </td>
+                    <td>
+                        <div style="background-color: #F53838; width: 80px;">&nbsp;80%</div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Multi-platform</td>
+                    <td>Icon Design</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div style="background-color: #F53838; width: 72px;">&nbsp; 72%</div>
+                    </td>
+                    <td>
+                        <div style="background-color: #F53838; width: 85px;">&nbsp;85%</div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Wireframing</td>
+                    <td>Usability Testing</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div style="background-color: #F53838; width: 95px;">&nbsp; 95%</div>
+                    </td>
+                    <td>
+                        <div style="background-color: #F53838; width: 80px;">&nbsp;80%</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <img src="gambar1.png" alt="Gambar" style="width: 200px; height: auto;">
+        <img src="gambar2.png" alt="Gambar" style="width: 200px; height: auto;">
+        <img src="gambar3.png" alt="Gambar" style="width: 200px; height: auto;">
+
+    </section>
+
+    <section id="testimoni">
+        <h2>Testimoni</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td style="width: 33%;">
+                        <h3>Jauza Hasna</h3>
+                        <p>“The resulting design is neat and the work is fast. The best thing”</p>
+                    </td>
+                    <td style="width: 33%;">
+                        <h3>Shilla Hanipa</h3>
+                        <p>“According to request, but there are some things that need to be revised first”</p>
+                    </td>
+                    <td style="width: 33%;">
+                        <h3>Anwar Robiansyah</h3>
+                        <p>“Very satisfied with using RD Design services”</p>
+                    </td>
+                </tr>
+            </thead>
+        </table>
+        <br>
+        <form action="/proses_form.php" method="post">
+            <style>
+                .stars {
+                    position: relative;
+                    display: inline-block;
+                }
+                
+                .star {
+                    display: none;
+                }
+                
+                .star-label {
+                    display: inline-block;
+                    font-size: 2em;
+                    color: #ccc;
+                    cursor: pointer;
+                }
+            </style>
+            </head>
+
+            <body>
+                <div>
+                    <p id="rating-text">Rate this project</p>
+                </div>
+                <div class="rating-container">
+                    <input type="hidden" id="rating-input" name="rating" value="0">
+                    <div class="stars">
+                        <label for="star-5" class="star-label">
+                        <input type="radio" id="star-5" name="star" value="5" class="star" />
+                        ★
+                    </label>
+                        <label for="star-4" class="star-label">
+                        <input type="radio" id="star-4" name="star" value="4" class="star" />
+                        ★
+                    </label>
+                        <label for="star-3" class="star-label">
+                        <input type="radio" id="star-3" name="star" value="3" class="star" />
+                        ★
+                    </label>
+                        <label for="star-2" class="star-label">
+                        <input type="radio" id="star-2" name="star" value="2" class="star" />
+                        ★
+                    </label>
+                        <label for="star-1" class="star-label">
+                        <input type="radio" id="star-1" name="star" value="1" class="star" />
+                        ★
+                    </label><br>
+
+                        <label for="nama">Nama organisasi atau perusahaan: </label><br>
+                        <input type="text" id="nama" name="nama"><br><br>
+
+                        <label for="testimoni">Testimoni:</label><br>
+                        <textarea id="testimoni" name="tertimoni" rows="4" cols="50"></textarea><br><br>
+
+                        <input type="submit" value="Upload">
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="footer" style=" display: flex; align-items: center; margin-right: 50px;">
+        <img src="logo.jpg" alt="Gambar" style="width: 70px; height: auto;">
+        <h2 style="margin-right: 200px;">Design</h2>
+        <h2>
+            <a href="#home" style="color:#161616;margin-right: 50px;">Home</a>
+            <a href="#about" style="color:#161616;margin-right: 50px;">About</a>
+            <a href="#skills" style="color:#161616; margin-right: 50px;">Skills</a>
+            <a href="#portfolio" style="color:#161616;margin-right: 50px;">Portofolio</a>
+            <a href="#testimoni" style="color:#161616;margin-right: 50px;">Testimoni</a>
+            <a href="#contact" style="color:#161616;margin-right: 50px;">Contact</a></h2>
+    </section>
+    <section id="user" style=" display: flex; align-items: center;" margin-right: 50px;>
+        <img src="user.png" alt="Gambar" style="width: 50px; height: auto;">
+        <h2 style="margin-right: 200px;">Risma</h2>
+
+    </section>
+    <section id="sosmed">
+        <p>Follow Us:</p>
+        <p>
+            <div class="social-icons" style=" display: flex; align-items: center;" margin-right: 300px;>
+                <a href="https://www.facebook.com"><img src="fb.png" alt="Facebook" style="width: 30px; height: auto;"></a>
+                <a href="https://www.instagram.com"><img src="ig.png" alt="Instagram" style="width: 40px; height: auto;"></a>
+                <a href="https://www.email.google.com"><img src="email.png" alt="Email" style="width: 40px; height: auto;"></a>
+                <a href="https://www.whatsapp.com"><img src="wa.png" alt="WhatsApp" style="width: 40px; height: auto;"></a>
+            </div>
+        </p>
+        <p>copyright@2024 All Right reserved</p>
+    </section>
+
+
+    </body>
+
+</html>
